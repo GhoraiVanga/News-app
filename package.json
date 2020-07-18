@@ -2,7 +2,7 @@
   "name": "newsapp",
   "version": "0.0.0",
  "scripts": {
-"heroku-postbuild": "cd client && npm install && npm run build",
+"heroku-postbuild": "ng build --prod",
     "ng": "ng",
     "start": "node server.js",
     "build": "ng build",
